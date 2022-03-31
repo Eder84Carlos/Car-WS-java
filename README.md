@@ -91,3 +91,6 @@ Se não existir marca com o brandId informado
 Se enviar corpo sem nenhum atributo
 Se faltar um do(s) atributo(s) (brandId, model e color) no corpo
 Se sucesso, retorna o objeto inteiro atualizado
+
+Foi usado o Spring Security pelo motivo de ter segurança na entrada da requisição onde se tem um controle maior pelo uso de Varios protocolos
+A autenticação seria a porta de entrada da aplicação onde usamos "username" e "passworld"
